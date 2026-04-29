@@ -1,0 +1,27 @@
+GET http://localhost:3001/api/notes
+
+###
+
+GET http://localhost:3001/api/notes/696bfe530c2d67d827733b4a
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "title": "Note Number four",
+    "content": "lorem ipsum loren remrewmom"
+}
+
+###
+DELETE http://localhost:3001/api/notes/696bfe530c2d67d827733b4a
+
+###
+PUT http://localhost:3001/api/notes/696d6bba123e09f8c41709f0
+Content-Type: application/json
+
+{
+    "title": "First note for my db updated",
+    "content": "First content for my db updated"
+}

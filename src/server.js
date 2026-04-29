@@ -7,7 +7,7 @@ import cors from "cors"
 
 const app = express()
 app.use(cors({
-    origin: ["https://note-front-ten.vercel.app/", "http://localhost:5173"]
+    origin: ["https://note-front-ten.vercel.app", "http://localhost:5173"]
 }))
 app.use(express.json())
 app.use("/api/notes", router)

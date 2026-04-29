@@ -25,3 +25,12 @@ Content-Type: application/json
     "title": "First note for my db updated",
     "content": "First content for my db updated"
 }
+
+###
+POST https://notes-back-dyly.onrender.com/api/notes
+Content-Type: application/json
+
+{
+    "title": "Note Number four",
+    "content": "lorem ipsum loren remrewmom"
+}
